@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const resetButton = document.getElementById('reset-game-btn');
     const newGameButton = document.getElementById('new-game-btn');
     const joinGameButton = document.getElementById('join-game-btn');
-    const baseUrl = 'http://18.207.181.102:8080/';
+    const baseUrl = 'http://localhost:8080';
     let socket = null;
 
     //socket.on('connect', function() {
